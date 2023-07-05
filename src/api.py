@@ -83,7 +83,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] =  UPLOAD_FOLDER
 
 # Routes
-@app.route('/', methods=['POST'])
+@app.route('/api/ingest', methods=['POST'])
 def uploadFiles():
     try:
         # get the uploaded file
