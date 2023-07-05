@@ -1,0 +1,14 @@
+[
+    {
+        "key_table" : "jobs",
+        "columns" : "id,job"
+    },
+    {
+        "key_table" : "departments",
+        "columns" : "id,department"
+    },
+    {
+        "key_table" : "hired_employees",
+        "columns" : "id,name,datetime,department_id,job_id"
+    }
+]
